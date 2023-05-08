@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    padding: 371px;
+}
+#section-login{
+    height: 300px;
+    width: 400px;
+    border-radius: 400px;
+    border: 50px solid black;
+    padding: 100 ;
+}
