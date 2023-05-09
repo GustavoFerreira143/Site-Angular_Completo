@@ -1,14 +1,16 @@
 main{
     
-    min-height:500px;
+    max-height:100px;
+   
  
 }
 #section-banner{
-    min-height: 400px;
+    min-height: 200px;
 
 }
 #section-banner img{
-    height: 500px;
+    height: 50px;
+    width: 50px;
 } 
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
