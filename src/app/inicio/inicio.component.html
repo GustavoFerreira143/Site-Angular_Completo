@@ -27,66 +27,29 @@
             Jogos Recomendados:
         </h1>
         <mat-grid-list cols="3">
-            <mat-grid-tile>
+       
+            <mat-grid-tile *ngFor= "let produto of produtos">
                 <mat-card class="example-card">
                     <mat-card-header>
-                        <img mat-card-image src="./assets/img/jogo1.PNG" alt="Jogo">
+                        <img mat-card-image src="./assets/img/{{produto.foto}}" alt="Jogo">
 
                     </mat-card-header>
-
+                    <mat-card-title>{{produto.produto}}</mat-card-title>
                     <mat-card-content>
                         <p>
-                            O JOGO, ISSO MESMO VOCE PERDEU
+                            {{produto.descricao}}
                         </p>
                     </mat-card-content>
                     <mat-card-actions>
-                        <p>R$ 100,00</p>
+                        <p>{{produto.preco}}</p>
 
                         <button id="botao" mat-button>Comprar</button>
 
                     </mat-card-actions>
                 </mat-card>
             </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <img mat-card-image src="./assets/img/jogo2.PNG" alt="Jogo2">
 
-                    </mat-card-header>
 
-                    <mat-card-content>
-                        <p>
-                            Esse jogo é sobre jooojs
-                        </p>
-                    </mat-card-content>
-                    <mat-card-actions>
-                        <p>R$ 300,00</p>
-
-                        <button id="botao" mat-button>Comprar</button>
-
-                    </mat-card-actions>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card class="example-card">
-                    <mat-card-header>
-                        <img mat-card-image src="./assets/img/jogo3.PNG" alt="Jogo3">
-
-                    </mat-card-header>
-
-                    <mat-card-content>
-                        <p>
-                            Vamos o jogo do povo
-                        </p>
-                    </mat-card-content>
-                    <mat-card-actions>
-                        <p>R$ 100,00</p>
-
-                        <button id="botao" mat-button>Comprar</button>
-
-                    </mat-card-actions>
-                </mat-card>
-            </mat-grid-tile>
         </mat-grid-list>
     </section>
 </main>

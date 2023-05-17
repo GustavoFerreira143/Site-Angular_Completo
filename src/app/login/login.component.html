@@ -5,17 +5,17 @@
         </h2>
         <form class="row g-3">
         
-              <label for="inputEmail" class="visually-show">Usuario</label>
-              <input type="password" readonly class="form-control" id="staticUsuario" placeholder="email@example.com">
+              <label for="inputUsuario" class="visually-show">Usuario</label>
+              <input type="Name" name="usuario " [(ngModel)]="usuario"class="form-control" id="inputName2" placeholder="Nome de Usuario">
  
             <br>
          
               <label for="inputPassword2" class="visually-show">Senha</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Digite sua Senha">
+              <input type="password" name="senha" [(ngModel)]= "senha"class="form-control" id="inputPassword2" placeholder="Digite sua Senha">
 
             <br>
       
-              <button type="submit" class="btn btn-primary mb-3">Confirmar</button>
+              <button type="submit" class="btn btn-primary mb-3"(click)="fazerLogin()">Confirmar</button>
 
           </form>
     </section>

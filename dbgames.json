@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": "5ksMt-x",
+      "produto": "Jogo da Ovelha",
+      "descricao": "Mundo aberto",
+      "foto": "goat.jpg",
+      "preco": 250
+    },
+    {
+      "id": "OKQCD3E",
+      "produto": "Poppy Playtime",
+      "descricao": "Jogo suvival horror",
+      "foto": "Poppy.jpg",
+      "preco": 100
+    },
+    {
+      "id": "QbDip2Y",
+      "produto": "Gta",
+      "descricao": "Mundo aberto",
+      "foto": "GTA.jpg",
+      "preco": 200
+    }
+  ]
+}
